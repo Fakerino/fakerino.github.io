@@ -150,7 +150,7 @@
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="https://github.com/fakerino/fakerino-docs/blob/master/functionalitiesrst" class="fa fa-github"> Edit on GitHub</a>
+            <a href="https://github.com/fakerino/fakerino-docs/blob/master/functionalities.rst" class="fa fa-github"> Edit on GitHub</a>
           
         
       </li>
@@ -183,7 +183,9 @@
 <div class="section" id="fake-table">
 <span id="id2"></span><h2>Fake table<a class="headerlink" href="#fake-table" title="Permalink to this headline">¶</a></h2>
 <p>The fakeTable method supports Mysql, Sqlite, PostgresSQL, Oracle, Microsoft SQL.
-<tt class="docutils literal"><span class="pre">PHP</span> <span class="pre">$fakerino-&gt;num(100)-&gt;fakeTable('tableName');</span></tt></p>
+.. code-block:: php</p>
+<blockquote>
+<div>$fakerino-&gt;num(100)-&gt;fakeTable(&#8216;tableName&#8217;);</div></blockquote>
 <p>The database connection must be set trough configuration&#8217;s values.</p>
 <div class="highlight-php"><div class="highlight"><pre><span class="c1">//mysql example</span>
 <span class="nv">$conf</span><span class="p">[</span><span class="s1">&#39;database&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
@@ -319,7 +321,7 @@ Example:</p>
             VERSION:'0.1',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
+            HAS_SOURCE:  false
         };
     </script>
       <script type="text/javascript" src="_static/jquery.js"></script>
